@@ -6,7 +6,7 @@ public class Class02 {
 		int num = 12,den =0;
 		int ans;
 		if (den==0)
-			System.out.println("°£¼Æ¬°0");
+			System.out.println("é™¤æ•¸ç‚º0");
 		else
 		{
 			ans = num/den;
