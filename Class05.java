@@ -3,20 +3,20 @@ package JAVA13;
 public class Class05 {
 
 	public static void main(String[] args) {
-		try
+		try          //tryå€å¡Š
 		{
 			int num = 12;
-			int den[]= {12,0,3,0,0,4};
+			int den[]= {12,0,3,0,0,4}; //è¨­å®šé™£åˆ—ç¯„åœ
 			for (int i=0;i<10;i++)
 				System.out.println("ans="+num/den[i]);
 		}
-		catch(ArithmeticException e)
+		catch(ArithmeticException e) 
 		{
-		System.out.println("°£¼Æ¬° 0");
+		System.out.println("é™¤æ•¸ç‚º 0");
 		}
 		catch(ArrayIndexOutOfBoundsException e)
 		{
-		System.out.println("°}¦Cµù¼Ğ¶W¥X¤F½d³ò");
+		System.out.println("é™£åˆ—è¨»æ¨™è¶…å‡ºäº†ç¯„åœ");
 		}
 
 	}
